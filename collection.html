@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\index.html">Home</a></p>
+            <p class="navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" aria-label="Menu">
+            <i class="fa-solid fa-bars" onclick="openside()"></i>
+        </div>
+    </nav>
+
+    <nav class="side-nav" id="sideNav"> <!-- Initially hidden -->
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closeside()" aria-label="Close menu"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\contact.html">Contact</a></p>
+        </div>
+    </nav>
+
+   <!--search-->
+
+   <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+            <div class="product-box">
+               <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\5.png">
+               <p>watch</p>
+            </div>
+
+            <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\6.png">
+                <p>shoe</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\7.png">
+                <p>laptop</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\8.png">
+                <p>headphones</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\1.png">
+                <p>CoupleCoustume</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\2.png">
+                <p>MarriageDress</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\3.png">
+                <p>handbag</p>
+             </div>
+
+             <div class="product-box">
+                <img src="C:\Users\emugi\OneDrive\Desktop\Nostra - EC\4.png">
+                <p>womenOfficeCoustume</p>
+             </div>
+        </div>
+   </div>
+
+<!--footer-->
+     <div class="footer">
+        <div class="footer-container">
+            <div class="box one">
+                <h2 class="footer heading">Nostra</h2>
+                <p style="margin-left: 27px;margin-bottom: 9px;">"© 2024 Nostra. Your style destination. Quality guaranteed. Follow us for exclusive updates!"</p>
+                <div class="icon-container">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-x" style="color: white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                    <p>emugilan2004@gmail.com</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
